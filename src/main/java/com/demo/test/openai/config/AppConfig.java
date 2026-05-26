@@ -75,7 +75,7 @@ public class AppConfig {
     }
 
 
-    @Bean
+    @Bean (name = "customChatClient")
     public ChatClient customChatClient(final ChatMemory chatMemory, final ChatClient.Builder customChatClientBuilder) {
 
 

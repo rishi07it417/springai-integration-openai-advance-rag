@@ -60,6 +60,12 @@
 			<artifactId>mariadb-java-client</artifactId>
 		</dependency>
 
+		<!-- Spring AI PDF Document Reader -->
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-pdf-document-reader</artifactId>
+		</dependency>
+
 		<!-- Rag Dependency -->
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
